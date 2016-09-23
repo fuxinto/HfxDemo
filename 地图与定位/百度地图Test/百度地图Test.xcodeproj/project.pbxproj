@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018026B513154C60B976615E /* libPods-百度地图Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 600A3279364FB5D5392E829E /* libPods-百度地图Test.a */; };
+		33A5BA1D1D86431400C895F6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A5BA1C1D86431400C895F6 /* MBProgressHUD.m */; };
+		33AD6A1D1D80F5E100F90F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD6A1C1D80F5E100F90F4E /* main.m */; };
+		33AD6A201D80F5E100F90F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD6A1F1D80F5E100F90F4E /* AppDelegate.m */; };
+		33AD6A231D80F5E100F90F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD6A221D80F5E100F90F4E /* ViewController.m */; };
+		33AD6A261D80F5E100F90F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AD6A241D80F5E100F90F4E /* Main.storyboard */; };
+		33AD6A281D80F5E100F90F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AD6A271D80F5E100F90F4E /* Assets.xcassets */; };
+		33AD6A2B1D80F5E100F90F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AD6A291D80F5E100F90F4E /* LaunchScreen.storyboard */; };
+		33AD6A361D80F5E100F90F4E /* ____TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD6A351D80F5E100F90F4E /* ____TestTests.m */; };
+		33AD6A411D80F5E100F90F4E /* ____TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD6A401D80F5E100F90F4E /* ____TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33AD6A321D80F5E100F90F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AD6A101D80F5E000F90F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33AD6A171D80F5E000F90F4E;
+			remoteInfo = "百度地图Test";
+		};
+		33AD6A3D1D80F5E100F90F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33AD6A101D80F5E000F90F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33AD6A171D80F5E000F90F4E;
+			remoteInfo = "百度地图Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A5BA1B1D86431400C895F6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		33A5BA1C1D86431400C895F6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		33AD6A181D80F5E000F90F4E /* 百度地图Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百度地图Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AD6A1C1D80F5E100F90F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33AD6A1E1D80F5E100F90F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33AD6A1F1D80F5E100F90F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33AD6A211D80F5E100F90F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33AD6A221D80F5E100F90F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33AD6A251D80F5E100F90F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33AD6A271D80F5E100F90F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AD6A2A1D80F5E100F90F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33AD6A2C1D80F5E100F90F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AD6A311D80F5E100F90F4E /* 百度地图TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AD6A351D80F5E100F90F4E /* ____TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____TestTests.m"; sourceTree = "<group>"; };
+		33AD6A371D80F5E100F90F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AD6A3C1D80F5E100F90F4E /* 百度地图TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百度地图TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AD6A401D80F5E100F90F4E /* ____TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____TestUITests.m"; sourceTree = "<group>"; };
+		33AD6A421D80F5E100F90F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600A3279364FB5D5392E829E /* libPods-百度地图Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百度地图Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5407A7890832F38880E7ABA /* Pods-百度地图Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百度地图Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-百度地图Test/Pods-百度地图Test.release.xcconfig"; sourceTree = "<group>"; };
+		F24BEA8B77C18D2EDEB2F469 /* Pods-百度地图Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百度地图Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百度地图Test/Pods-百度地图Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AD6A151D80F5E000F90F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018026B513154C60B976615E /* libPods-百度地图Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A2E1D80F5E100F90F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A391D80F5E100F90F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A5BA1A1D86431400C895F6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				33A5BA1B1D86431400C895F6 /* MBProgressHUD.h */,
+				33A5BA1C1D86431400C895F6 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		33AD6A0F1D80F5E000F90F4E = {
+			isa = PBXGroup;
+			children = (
+				33AD6A1A1D80F5E000F90F4E /* 百度地图Test */,
+				33AD6A341D80F5E100F90F4E /* 百度地图TestTests */,
+				33AD6A3F1D80F5E100F90F4E /* 百度地图TestUITests */,
+				33AD6A191D80F5E000F90F4E /* Products */,
+				E1B0417E76011D3080EC9949 /* Pods */,
+				9DD647A0912ABE368812385A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33AD6A191D80F5E000F90F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AD6A181D80F5E000F90F4E /* 百度地图Test.app */,
+				33AD6A311D80F5E100F90F4E /* 百度地图TestTests.xctest */,
+				33AD6A3C1D80F5E100F90F4E /* 百度地图TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AD6A1A1D80F5E000F90F4E /* 百度地图Test */ = {
+			isa = PBXGroup;
+			children = (
+				33AD6A1E1D80F5E100F90F4E /* AppDelegate.h */,
+				33AD6A1F1D80F5E100F90F4E /* AppDelegate.m */,
+				33AD6A211D80F5E100F90F4E /* ViewController.h */,
+				33AD6A221D80F5E100F90F4E /* ViewController.m */,
+				33AD6A241D80F5E100F90F4E /* Main.storyboard */,
+				33AD6A271D80F5E100F90F4E /* Assets.xcassets */,
+				33AD6A291D80F5E100F90F4E /* LaunchScreen.storyboard */,
+				33AD6A2C1D80F5E100F90F4E /* Info.plist */,
+				33A5BA1A1D86431400C895F6 /* MBProgressHUD */,
+				33AD6A1B1D80F5E100F90F4E /* Supporting Files */,
+			);
+			path = "百度地图Test";
+			sourceTree = "<group>";
+		};
+		33AD6A1B1D80F5E100F90F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33AD6A1C1D80F5E100F90F4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33AD6A341D80F5E100F90F4E /* 百度地图TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				33AD6A351D80F5E100F90F4E /* ____TestTests.m */,
+				33AD6A371D80F5E100F90F4E /* Info.plist */,
+			);
+			path = "百度地图TestTests";
+			sourceTree = "<group>";
+		};
+		33AD6A3F1D80F5E100F90F4E /* 百度地图TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33AD6A401D80F5E100F90F4E /* ____TestUITests.m */,
+				33AD6A421D80F5E100F90F4E /* Info.plist */,
+			);
+			path = "百度地图TestUITests";
+			sourceTree = "<group>";
+		};
+		9DD647A0912ABE368812385A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600A3279364FB5D5392E829E /* libPods-百度地图Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1B0417E76011D3080EC9949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24BEA8B77C18D2EDEB2F469 /* Pods-百度地图Test.debug.xcconfig */,
+				D5407A7890832F38880E7ABA /* Pods-百度地图Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AD6A171D80F5E000F90F4E /* 百度地图Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AD6A451D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图Test" */;
+			buildPhases = (
+				8FD79AC514F1E94BED8C005A /* [CP] Check Pods Manifest.lock */,
+				33AD6A141D80F5E000F90F4E /* Sources */,
+				33AD6A151D80F5E000F90F4E /* Frameworks */,
+				33AD6A161D80F5E000F90F4E /* Resources */,
+				F75F3B6A94EBB814CAD35D16 /* [CP] Embed Pods Frameworks */,
+				A64B515776024C8A4FA655A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百度地图Test";
+			productName = "百度地图Test";
+			productReference = 33AD6A181D80F5E000F90F4E /* 百度地图Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33AD6A301D80F5E100F90F4E /* 百度地图TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AD6A481D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图TestTests" */;
+			buildPhases = (
+				33AD6A2D1D80F5E100F90F4E /* Sources */,
+				33AD6A2E1D80F5E100F90F4E /* Frameworks */,
+				33AD6A2F1D80F5E100F90F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33AD6A331D80F5E100F90F4E /* PBXTargetDependency */,
+			);
+			name = "百度地图TestTests";
+			productName = "百度地图TestTests";
+			productReference = 33AD6A311D80F5E100F90F4E /* 百度地图TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33AD6A3B1D80F5E100F90F4E /* 百度地图TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AD6A4B1D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图TestUITests" */;
+			buildPhases = (
+				33AD6A381D80F5E100F90F4E /* Sources */,
+				33AD6A391D80F5E100F90F4E /* Frameworks */,
+				33AD6A3A1D80F5E100F90F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33AD6A3E1D80F5E100F90F4E /* PBXTargetDependency */,
+			);
+			name = "百度地图TestUITests";
+			productName = "百度地图TestUITests";
+			productReference = 33AD6A3C1D80F5E100F90F4E /* 百度地图TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AD6A101D80F5E000F90F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fuxinto;
+				TargetAttributes = {
+					33AD6A171D80F5E000F90F4E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					33AD6A301D80F5E100F90F4E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 33AD6A171D80F5E000F90F4E;
+					};
+					33AD6A3B1D80F5E100F90F4E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 33AD6A171D80F5E000F90F4E;
+					};
+				};
+			};
+			buildConfigurationList = 33AD6A131D80F5E000F90F4E /* Build configuration list for PBXProject "百度地图Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AD6A0F1D80F5E000F90F4E;
+			productRefGroup = 33AD6A191D80F5E000F90F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AD6A171D80F5E000F90F4E /* 百度地图Test */,
+				33AD6A301D80F5E100F90F4E /* 百度地图TestTests */,
+				33AD6A3B1D80F5E100F90F4E /* 百度地图TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AD6A161D80F5E000F90F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD6A2B1D80F5E100F90F4E /* LaunchScreen.storyboard in Resources */,
+				33AD6A281D80F5E100F90F4E /* Assets.xcassets in Resources */,
+				33AD6A261D80F5E100F90F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A2F1D80F5E100F90F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A3A1D80F5E100F90F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FD79AC514F1E94BED8C005A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A64B515776024C8A4FA655A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百度地图Test/Pods-百度地图Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75F3B6A94EBB814CAD35D16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百度地图Test/Pods-百度地图Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AD6A141D80F5E000F90F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD6A231D80F5E100F90F4E /* ViewController.m in Sources */,
+				33AD6A201D80F5E100F90F4E /* AppDelegate.m in Sources */,
+				33AD6A1D1D80F5E100F90F4E /* main.m in Sources */,
+				33A5BA1D1D86431400C895F6 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A2D1D80F5E100F90F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD6A361D80F5E100F90F4E /* ____TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AD6A381D80F5E100F90F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AD6A411D80F5E100F90F4E /* ____TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33AD6A331D80F5E100F90F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33AD6A171D80F5E000F90F4E /* 百度地图Test */;
+			targetProxy = 33AD6A321D80F5E100F90F4E /* PBXContainerItemProxy */;
+		};
+		33AD6A3E1D80F5E100F90F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33AD6A171D80F5E000F90F4E /* 百度地图Test */;
+			targetProxy = 33AD6A3D1D80F5E100F90F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33AD6A241D80F5E100F90F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AD6A251D80F5E100F90F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33AD6A291D80F5E100F90F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AD6A2A1D80F5E100F90F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AD6A431D80F5E100F90F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33AD6A441D80F5E100F90F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AD6A461D80F5E100F90F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24BEA8B77C18D2EDEB2F469 /* Pods-百度地图Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度地图Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33AD6A471D80F5E100F90F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5407A7890832F38880E7ABA /* Pods-百度地图Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "百度地图Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33AD6A491D80F5E100F90F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度地图TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度地图Test.app/百度地图Test";
+			};
+			name = Debug;
+		};
+		33AD6A4A1D80F5E100F90F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百度地图TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百度地图Test.app/百度地图Test";
+			};
+			name = Release;
+		};
+		33AD6A4C1D80F5E100F90F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度地图TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度地图Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33AD6A4D1D80F5E100F90F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百度地图TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fuxinto.----TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百度地图Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AD6A131D80F5E000F90F4E /* Build configuration list for PBXProject "百度地图Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD6A431D80F5E100F90F4E /* Debug */,
+				33AD6A441D80F5E100F90F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AD6A451D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD6A461D80F5E100F90F4E /* Debug */,
+				33AD6A471D80F5E100F90F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AD6A481D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD6A491D80F5E100F90F4E /* Debug */,
+				33AD6A4A1D80F5E100F90F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AD6A4B1D80F5E100F90F4E /* Build configuration list for PBXNativeTarget "百度地图TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AD6A4C1D80F5E100F90F4E /* Debug */,
+				33AD6A4D1D80F5E100F90F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AD6A101D80F5E000F90F4E /* Project object */;
+}

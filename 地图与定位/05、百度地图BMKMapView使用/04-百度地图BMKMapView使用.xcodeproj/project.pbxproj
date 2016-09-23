@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314C1F73C183CFCBB06CC90E /* libPods-04-百度地图BMKMapView使用.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B28B32776CBFF6A35BFD9E /* libPods-04-百度地图BMKMapView使用.a */; };
+		F9A304E41C8D45780062D263 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A304E31C8D45780062D263 /* main.m */; };
+		F9A304E71C8D45780062D263 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A304E61C8D45780062D263 /* AppDelegate.m */; };
+		F9A304EA1C8D45780062D263 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A304E91C8D45780062D263 /* ViewController.m */; };
+		F9A304ED1C8D45780062D263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A304EB1C8D45780062D263 /* Main.storyboard */; };
+		F9A304EF1C8D45780062D263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A304EE1C8D45780062D263 /* Assets.xcassets */; };
+		F9A304F21C8D45780062D263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A304F01C8D45780062D263 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ACA24CF0C5A73D5F2403F7C /* Pods-04-百度地图BMKMapView使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-04-百度地图BMKMapView使用.release.xcconfig"; path = "Pods/Target Support Files/Pods-04-百度地图BMKMapView使用/Pods-04-百度地图BMKMapView使用.release.xcconfig"; sourceTree = "<group>"; };
+		A7B28B32776CBFF6A35BFD9E /* libPods-04-百度地图BMKMapView使用.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-04-百度地图BMKMapView使用.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8B990239798C9BAA6F4ADD /* Pods-04-百度地图BMKMapView使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-04-百度地图BMKMapView使用.debug.xcconfig"; path = "Pods/Target Support Files/Pods-04-百度地图BMKMapView使用/Pods-04-百度地图BMKMapView使用.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A304DF1C8D45780062D263 /* 04-百度地图BMKMapView使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-百度地图BMKMapView使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A304E31C8D45780062D263 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9A304E51C8D45780062D263 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9A304E61C8D45780062D263 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9A304E81C8D45780062D263 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9A304E91C8D45780062D263 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9A304EC1C8D45780062D263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9A304EE1C8D45780062D263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9A304F11C8D45780062D263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9A304F31C8D45780062D263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A304DC1C8D45780062D263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314C1F73C183CFCBB06CC90E /* libPods-04-百度地图BMKMapView使用.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22118333552194A493F305A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7B28B32776CBFF6A35BFD9E /* libPods-04-百度地图BMKMapView使用.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3693DAFE4FE8FDFE1E4F098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF8B990239798C9BAA6F4ADD /* Pods-04-百度地图BMKMapView使用.debug.xcconfig */,
+				1ACA24CF0C5A73D5F2403F7C /* Pods-04-百度地图BMKMapView使用.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9A304D61C8D45780062D263 = {
+			isa = PBXGroup;
+			children = (
+				F9A304E11C8D45780062D263 /* 04-百度地图BMKMapView使用 */,
+				F9A304E01C8D45780062D263 /* Products */,
+				A3693DAFE4FE8FDFE1E4F098 /* Pods */,
+				22118333552194A493F305A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A304E01C8D45780062D263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A304DF1C8D45780062D263 /* 04-百度地图BMKMapView使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A304E11C8D45780062D263 /* 04-百度地图BMKMapView使用 */ = {
+			isa = PBXGroup;
+			children = (
+				F9A304E51C8D45780062D263 /* AppDelegate.h */,
+				F9A304E61C8D45780062D263 /* AppDelegate.m */,
+				F9A304E81C8D45780062D263 /* ViewController.h */,
+				F9A304E91C8D45780062D263 /* ViewController.m */,
+				F9A304EB1C8D45780062D263 /* Main.storyboard */,
+				F9A304EE1C8D45780062D263 /* Assets.xcassets */,
+				F9A304F01C8D45780062D263 /* LaunchScreen.storyboard */,
+				F9A304F31C8D45780062D263 /* Info.plist */,
+				F9A304E21C8D45780062D263 /* Supporting Files */,
+			);
+			path = "04-百度地图BMKMapView使用";
+			sourceTree = "<group>";
+		};
+		F9A304E21C8D45780062D263 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A304E31C8D45780062D263 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A304DE1C8D45780062D263 /* 04-百度地图BMKMapView使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A304F61C8D45780062D263 /* Build configuration list for PBXNativeTarget "04-百度地图BMKMapView使用" */;
+			buildPhases = (
+				E10EBE472276BB43C1F4A129 /* [CP] Check Pods Manifest.lock */,
+				F9A304DB1C8D45780062D263 /* Sources */,
+				F9A304DC1C8D45780062D263 /* Frameworks */,
+				F9A304DD1C8D45780062D263 /* Resources */,
+				73DBD1A74CFC4197BF72FD39 /* [CP] Embed Pods Frameworks */,
+				591F543AC74652EF5B89DE89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-百度地图BMKMapView使用";
+			productName = "04-百度地图BMKMapView使用";
+			productReference = F9A304DF1C8D45780062D263 /* 04-百度地图BMKMapView使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A304D71C8D45780062D263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "十安科技";
+				TargetAttributes = {
+					F9A304DE1C8D45780062D263 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F9A304DA1C8D45780062D263 /* Build configuration list for PBXProject "04-百度地图BMKMapView使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9A304D61C8D45780062D263;
+			productRefGroup = F9A304E01C8D45780062D263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A304DE1C8D45780062D263 /* 04-百度地图BMKMapView使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A304DD1C8D45780062D263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A304F21C8D45780062D263 /* LaunchScreen.storyboard in Resources */,
+				F9A304EF1C8D45780062D263 /* Assets.xcassets in Resources */,
+				F9A304ED1C8D45780062D263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		591F543AC74652EF5B89DE89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-04-百度地图BMKMapView使用/Pods-04-百度地图BMKMapView使用-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DBD1A74CFC4197BF72FD39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-04-百度地图BMKMapView使用/Pods-04-百度地图BMKMapView使用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10EBE472276BB43C1F4A129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A304DB1C8D45780062D263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A304EA1C8D45780062D263 /* ViewController.m in Sources */,
+				F9A304E71C8D45780062D263 /* AppDelegate.m in Sources */,
+				F9A304E41C8D45780062D263 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9A304EB1C8D45780062D263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A304EC1C8D45780062D263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9A304F01C8D45780062D263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A304F11C8D45780062D263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A304F41C8D45780062D263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9A304F51C8D45780062D263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A304F71C8D45780062D263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8B990239798C9BAA6F4ADD /* Pods-04-百度地图BMKMapView使用.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-百度地图BMKMapView使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphoneblank.BMKMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9A304F81C8D45780062D263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACA24CF0C5A73D5F2403F7C /* Pods-04-百度地图BMKMapView使用.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-百度地图BMKMapView使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphoneblank.BMKMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A304DA1C8D45780062D263 /* Build configuration list for PBXProject "04-百度地图BMKMapView使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A304F41C8D45780062D263 /* Debug */,
+				F9A304F51C8D45780062D263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A304F61C8D45780062D263 /* Build configuration list for PBXNativeTarget "04-百度地图BMKMapView使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A304F71C8D45780062D263 /* Debug */,
+				F9A304F81C8D45780062D263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A304D71C8D45780062D263 /* Project object */;
+}

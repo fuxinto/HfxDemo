@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b8e246a7-6d0d-8356-cb39-1f8f209d727b++9855",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b8e246a7-6d0d-8356-cb39-1f8f209d727b++9855" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b8e246a7-6d0d-8356-cb39-1f8f209d727b++9855" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "553FCD1A-0FC1-4772-8ED6-ECFE38DB35D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b8e246a7-6d0d-8356-cb39-1f8f209d727b++9855" : "TensClass04\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "04、MKMapView(线路)",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "04_iOS进阶\/08、定位和地图\/04、MKMapView(线路)\/04、MKMapView(线路).xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/vip.svnspot.com\/tens.TensClass04",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b8e246a7-6d0d-8356-cb39-1f8f209d727b++9855"
+    }
+  ]
+}

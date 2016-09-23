@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oDi-vH-2GF" customClass="BMKMapView">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUk-h3-NUg">
+                                <rect key="frame" x="540" y="430" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2we-NH-W8t"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iwm-rb-1Li"/>
+                                </constraints>
+                                <state key="normal" image="photo"/>
+                                <connections>
+                                    <action selector="mapPhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sXD-cn-ly2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iA-Jv-Arr">
+                                <rect key="frame" x="540" y="485" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="diZ-j8-CmK"/>
+                                    <constraint firstAttribute="height" constant="50" id="xU3-Zq-PWq"/>
+                                </constraints>
+                                <state key="normal" image="car"/>
+                                <connections>
+                                    <action selector="showCarLine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R78-0g-xt7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T63-jH-h30">
+                                <rect key="frame" x="540" y="540" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="OpK-Kr-PiJ"/>
+                                    <constraint firstAttribute="height" constant="50" id="Vhk-sE-ZKk"/>
+                                </constraints>
+                                <state key="normal" image="location"/>
+                                <connections>
+                                    <action selector="localUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ULp-lI-h58"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oDi-vH-2GF" secondAttribute="bottom" id="0Yg-1e-vZM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T63-jH-h30" secondAttribute="bottom" constant="10" id="3FX-a4-qak"/>
+                            <constraint firstItem="1iA-Jv-Arr" firstAttribute="top" secondItem="ZUk-h3-NUg" secondAttribute="bottom" constant="5" id="8Ld-If-HlT"/>
+                            <constraint firstItem="oDi-vH-2GF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="B3c-VW-g16"/>
+                            <constraint firstItem="oDi-vH-2GF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JAd-xr-8ti"/>
+                            <constraint firstAttribute="trailing" secondItem="T63-jH-h30" secondAttribute="trailing" constant="10" id="Mlf-pP-uIe"/>
+                            <constraint firstItem="T63-jH-h30" firstAttribute="top" secondItem="1iA-Jv-Arr" secondAttribute="bottom" constant="5" id="YXd-EH-zfc"/>
+                            <constraint firstAttribute="trailing" secondItem="1iA-Jv-Arr" secondAttribute="trailing" constant="10" id="cyN-hb-Byi"/>
+                            <constraint firstAttribute="trailing" secondItem="oDi-vH-2GF" secondAttribute="trailing" id="lCc-Wp-ZnZ"/>
+                            <constraint firstAttribute="trailing" secondItem="ZUk-h3-NUg" secondAttribute="trailing" constant="10" id="wCk-pK-kTz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myMapView" destination="oDi-vH-2GF" id="LjO-Qm-IG2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="211"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car" width="256" height="256"/>
+        <image name="location" width="60" height="60"/>
+        <image name="photo" width="128" height="128"/>
+    </resources>
+</document>
