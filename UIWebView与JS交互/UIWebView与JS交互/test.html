@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+            </head>
+    <body>
+        <div style="text-align: center;">
+            <h1>Objective-C和JavaScript交互的那些事</h1>
+            <div><img src="http://chuantu.biz/t5/34/1474337388x3063167327.jpg" /></div>
+            <div><input type="button" value="点击我可以看到Xcode的NSLog" onclick="Toyun.callCamera()" /></div>
+            <div><input type="button" value="点击我可以保持图片到手机相册" onclick="callShare()" /></div>
+        </div>
+        <script>
+            var callShare = function() {
+                
+                var shareInfo = JSON.stringify({"title": "标题", "desc": "内容", "shareUrl": "http://chuantu.biz/t5/34/1474337388x3063167327.jpg"});
+                Toyun.share(shareInfo);
+            }
+        var picCallback = function(photos) {
+            alert(photos);
+        }
+        var shareCallback = function(NSString){
+            alert(NSString);
+        }
+
+            </script>
+    </body>
+</html>
+
