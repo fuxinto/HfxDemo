@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgN-DB-lrQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="np0-wD-wIu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="0Pc-AY-XcE"/>
+                                    <constraint firstAttribute="height" constant="50" id="jbt-3H-Lv8"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0Pc-AY-XcE"/>
+                                        <exclude reference="jbt-3H-Lv8"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="0Pc-AY-XcE"/>
+                                        <include reference="jbt-3H-Lv8"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="np0-wD-wIu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LFM-fi-Ty4"/>
+                            <constraint firstItem="dgN-DB-lrQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WlX-8l-1Yo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="np0-wD-wIu" secondAttribute="bottom" id="b6c-qp-5Xr"/>
+                            <constraint firstItem="dgN-DB-lrQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nRZ-XL-Sfq"/>
+                            <constraint firstAttribute="bottom" secondItem="dgN-DB-lrQ" secondAttribute="bottom" id="pJt-bQ-ggL"/>
+                            <constraint firstAttribute="trailing" secondItem="dgN-DB-lrQ" secondAttribute="trailing" id="qk6-lb-iWE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="dgN-DB-lrQ"/>
+                                <exclude reference="np0-wD-wIu"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="WlX-8l-1Yo"/>
+                                <exclude reference="nRZ-XL-Sfq"/>
+                                <exclude reference="pJt-bQ-ggL"/>
+                                <exclude reference="qk6-lb-iWE"/>
+                                <exclude reference="LFM-fi-Ty4"/>
+                                <exclude reference="b6c-qp-5Xr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="dgN-DB-lrQ"/>
+                                <include reference="np0-wD-wIu"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="WlX-8l-1Yo"/>
+                                <include reference="nRZ-XL-Sfq"/>
+                                <include reference="pJt-bQ-ggL"/>
+                                <include reference="qk6-lb-iWE"/>
+                                <include reference="LFM-fi-Ty4"/>
+                                <include reference="b6c-qp-5Xr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="dgN-DB-lrQ" id="Cfl-nu-KMO"/>
+                        <outlet property="imageView" destination="np0-wD-wIu" id="Uyg-PE-RtG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image" width="404" height="390"/>
+    </resources>
+</document>
