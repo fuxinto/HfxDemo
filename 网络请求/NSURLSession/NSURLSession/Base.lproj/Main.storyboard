@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VGZ-75-mbU">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugt-Fn-fhL" customClass="DownLoadPrograssView">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="sgI-17-lYX"/>
+                                    <constraint firstAttribute="height" constant="150" id="w1M-7r-i3u"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="sgI-17-lYX"/>
+                                        <exclude reference="w1M-7r-i3u"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="sgI-17-lYX"/>
+                                        <include reference="w1M-7r-i3u"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VGZ-75-mbU" secondAttribute="bottom" constant="200" id="JS9-ZC-pif"/>
+                            <constraint firstAttribute="trailing" secondItem="VGZ-75-mbU" secondAttribute="trailing" id="K6J-Gy-P94"/>
+                            <constraint firstItem="VGZ-75-mbU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KqL-qr-DnD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ugt-Fn-fhL" secondAttribute="bottom" constant="36" id="NLX-Pa-3sa"/>
+                            <constraint firstItem="VGZ-75-mbU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mHt-tK-V4V"/>
+                            <constraint firstItem="ugt-Fn-fhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yY0-PH-n4u"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="VGZ-75-mbU"/>
+                                <exclude reference="ugt-Fn-fhL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="K6J-Gy-P94"/>
+                                <exclude reference="KqL-qr-DnD"/>
+                                <exclude reference="mHt-tK-V4V"/>
+                                <exclude reference="yY0-PH-n4u"/>
+                                <exclude reference="JS9-ZC-pif"/>
+                                <exclude reference="NLX-Pa-3sa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="VGZ-75-mbU"/>
+                                <include reference="ugt-Fn-fhL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="K6J-Gy-P94"/>
+                                <include reference="KqL-qr-DnD"/>
+                                <include reference="mHt-tK-V4V"/>
+                                <include reference="yY0-PH-n4u"/>
+                                <include reference="JS9-ZC-pif"/>
+                                <include reference="NLX-Pa-3sa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="VGZ-75-mbU" id="awb-TT-Eol"/>
+                        <outlet property="prograssView" destination="ugt-Fn-fhL" id="DBo-Gl-f0r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
