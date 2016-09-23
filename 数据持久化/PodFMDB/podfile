@@ -1,0 +1,5 @@
+platform:ios,'7.0'
+target "PodTest" do
+pod 'FMDB', '~> 2.6.2'
+end
+
